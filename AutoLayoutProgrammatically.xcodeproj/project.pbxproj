@@ -10,20 +10,20 @@
 		4B6448B225C2175D00849403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6448B125C2175D00849403 /* AppDelegate.swift */; };
 		4B6448B425C2175D00849403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6448B325C2175D00849403 /* SceneDelegate.swift */; };
 		4B6448B625C2175D00849403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6448B525C2175D00849403 /* ViewController.swift */; };
-		4B6448B925C2175D00849403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6448B725C2175D00849403 /* Main.storyboard */; };
 		4B6448BB25C2176300849403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6448BA25C2176300849403 /* Assets.xcassets */; };
 		4B6448BE25C2176300849403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6448BC25C2176300849403 /* LaunchScreen.storyboard */; };
+		4B6448C925C2303300849403 /* Canary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B6448C825C2303200849403 /* Canary.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B6448AE25C2175D00849403 /* DeleteThisToo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteThisToo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6448AE25C2175D00849403 /* AutoLayoutProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6448B125C2175D00849403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6448B325C2175D00849403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B6448B525C2175D00849403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B6448B825C2175D00849403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B6448BA25C2176300849403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6448BD25C2176300849403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6448BF25C2176300849403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6448C825C2303200849403 /* Canary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canary.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		4B6448AF25C2175D00849403 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B6448AE25C2175D00849403 /* DeleteThisToo.app */,
+				4B6448AE25C2175D00849403 /* AutoLayoutProgrammatically.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +59,8 @@
 				4B6448B125C2175D00849403 /* AppDelegate.swift */,
 				4B6448B325C2175D00849403 /* SceneDelegate.swift */,
 				4B6448B525C2175D00849403 /* ViewController.swift */,
-				4B6448B725C2175D00849403 /* Main.storyboard */,
 				4B6448BA25C2176300849403 /* Assets.xcassets */,
+				4B6448C825C2303200849403 /* Canary.jpg */,
 				4B6448BC25C2176300849403 /* LaunchScreen.storyboard */,
 				4B6448BF25C2176300849403 /* Info.plist */,
 			);
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B6448AD25C2175D00849403 /* DeleteThisToo */ = {
+		4B6448AD25C2175D00849403 /* AutoLayoutProgrammatically */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6448C225C2176300849403 /* Build configuration list for PBXNativeTarget "DeleteThisToo" */;
+			buildConfigurationList = 4B6448C225C2176300849403 /* Build configuration list for PBXNativeTarget "AutoLayoutProgrammatically" */;
 			buildPhases = (
 				4B6448AA25C2175D00849403 /* Sources */,
 				4B6448AB25C2175D00849403 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = DeleteThisToo;
+			name = AutoLayoutProgrammatically;
 			productName = DeleteThisToo;
-			productReference = 4B6448AE25C2175D00849403 /* DeleteThisToo.app */;
+			productReference = 4B6448AE25C2175D00849403 /* AutoLayoutProgrammatically.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B6448A925C2175D00849403 /* Build configuration list for PBXProject "DeleteThisToo" */;
+			buildConfigurationList = 4B6448A925C2175D00849403 /* Build configuration list for PBXProject "AutoLayoutProgrammatically" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B6448AD25C2175D00849403 /* DeleteThisToo */,
+				4B6448AD25C2175D00849403 /* AutoLayoutProgrammatically */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6448C925C2303300849403 /* Canary.jpg in Resources */,
 				4B6448BE25C2176300849403 /* LaunchScreen.storyboard in Resources */,
 				4B6448BB25C2176300849403 /* Assets.xcassets in Resources */,
-				4B6448B925C2175D00849403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B6448B725C2175D00849403 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B6448B825C2175D00849403 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B6448BC25C2176300849403 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B6448A925C2175D00849403 /* Build configuration list for PBXProject "DeleteThisToo" */ = {
+		4B6448A925C2175D00849403 /* Build configuration list for PBXProject "AutoLayoutProgrammatically" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6448C025C2176300849403 /* Debug */,
@@ -331,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B6448C225C2176300849403 /* Build configuration list for PBXNativeTarget "DeleteThisToo" */ = {
+		4B6448C225C2176300849403 /* Build configuration list for PBXNativeTarget "AutoLayoutProgrammatically" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6448C325C2176300849403 /* Debug */,
